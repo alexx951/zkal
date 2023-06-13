@@ -2,48 +2,33 @@
 <html>
 <head>
   <title>Quizzeo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    
-    h1 {
-      color: #333;
-    }
-    
-    form {
-      margin-top: 20px;
-    }
-    
-    input[type="text"], input[type="password"] {
-      padding: 10px;
-      margin: 5px;
-      width: 200px;
-    }
-    
-    input[type="submit"] {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="connet.css">
 </head>
 <body>
-  <h1>Quizzeo</h1>
+  <div class="logo">QUIZZEO</div>
+  <div class="log1">
+    <img src="quiz (1).png" alt="qizzimage">
+    
+    </div>
+    <div class="log2">
+
+      <img src="idees.png" alt="quizzimage">
+    </div>
+  <div class="cadre">
+    <form action="quiz.html" method="post">
+      <label for="username">Nom d'utilisateur:</label>
+      <br>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="password">Mot de passe:</label>
+      <br>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <input type="submit" value="Se connecter">
+    </form>
+
+  </div>
   
-  <form action="quiz.html" method="post">
-    <label for="username">Nom d'utilisateur:</label>
-    <br>
-    <input type="text" id="username" name="username" required>
-    <br>
-    <label for="password">Mot de passe:</label>
-    <br>
-    <input type="password" id="password" name="password" required>
-    <br>
-    <input type="submit" value="Se connecter">
-  </form>
+  
 </body>
 </html>
