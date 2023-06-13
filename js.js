@@ -5,7 +5,7 @@ var questions = [
         correctAnswer: 0
     },
     {
-        question: "Quelle est la plus grande planète du système solaire ?",
+        question: "Quelle est la plus grande planete du systeme solaire ?",
         choices: ["Terre", "Jupiter", "Vénus", "Mars"],
         correctAnswer: 1
     },
