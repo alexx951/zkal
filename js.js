@@ -5,13 +5,13 @@ var questions = [
         correctAnswer: 0
     },
     {
-        question: "Quelle est la plus grande planete du systeme solaire ?",
-        choices: ["Terre", "Jupiter", "Venus", "Mars"],
+        question: "Qui a ete le premier president des Etats-Unis ?",
+        choices: ["Macron", "George Washington", "Donald Trump", "Joe Biden"],
         correctAnswer: 1
     },
     {
-        question: "Quelle est la couleur du soleil ?",
-        choices: ["Bleu", "Jaune", "Rouge", "Vert"],
+        question: "Quelle etait la capitale de l'empire romain  ?",
+        choices: ["Milan", "Rome", "Naple", "Venise"],
         correctAnswer: 1
     }
 ];
@@ -60,7 +60,7 @@ function checkAnswer() {
 // Afficher le score final
 function endQuiz() {
     var container = document.querySelector(".container");
-    container.innerHTML = "<h2>Quiz terminé !</h2>" +
+    container.innerHTML = "<h2>Quiz termine !</h2>" +
                           "<p>Score final: " + score + "</p>";
 }
 
