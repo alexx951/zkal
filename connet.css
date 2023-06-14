@@ -46,7 +46,8 @@
         border: solid black 3px;
         border-radius: 5px;
         width: 400px;
-        background-color: aquamarine;
+        background-color: #0077b6;
+
 
     }
     .log2{
@@ -61,6 +62,25 @@
     @keyframes anime3 {
         
         0%,100%{
+            transform:  translateY(-30px);
+        }
+        50%{
+            transform: translateY(30px);
+        }
+        
+    }
+    .log3{
+        position: absolute;
+        top:90%;
+        left:80%;
+        animation: anime4 4s linear infinite;
+
+
+
+    }
+    @keyframes anime4 {
+        
+        0%,100%{
             transform:  translateY(-40px);
         }
         50%{
@@ -69,6 +89,43 @@
         
     }
 
+    .log1{
+        position: absolute;
+        top:20%;
+        left:47%;
+        animation: anime5 4s linear infinite;
 
 
+
+    }
+    @keyframes anime5 {
+        
+        0%,100%{
+            transform : rotate(360deg);
+        }
+        100%{
+            transform : rotate(-360deg);
+        }
+        
+    }
+    .log5{
+        position: absolute;
+        top:20%;
+        left:80%;
+        animation: anime6 4s linear infinite;
+
+
+
+    }
+    @keyframes anime6 {
+        
+        0%,100%{
+            transform:  translateY(200px);
+        }
+        50%{
+            transform: translatex(-100px);
+        }
+        
+    }
+   
   
