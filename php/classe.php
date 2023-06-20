@@ -6,12 +6,27 @@ private ;
 private ;
 }
 class choice{
-    
+
 
 }
 class quizz{}
-class role{}
-class user {}
+
+
+class role{
+    public $id;
+    public $name;
+}
+
+
+
+
+
+class user {
+public $id;
+public $pseudo;
+public $email;
+public $password;
+}
 
 
 

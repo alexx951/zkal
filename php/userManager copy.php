@@ -1,8 +1,9 @@
 
 
-<!DOCTYPE html>
-<html>
- <!-- <?php
+ 
+  <?php
+
+  
   $link = mysqli_connect("localhost", "root", "", "ipssi_quizzeo");
                  
     
@@ -29,37 +30,8 @@ else {
          
 return false;
       }
-  }}
-?>-->
-<head>
-  <title>Quizzeo</title>
-  <link rel="stylesheet" href="../css/connet.css">
-</head>
-<body>
-  <div class="logo">QUIZZEO</div>
-  <div class="log1">
-    <img src="../photo/quiz (1).png" alt="qizzimage">
-    
-    </div>
-    <div class="log2">
-
-      <img src="../photo/idees.png" alt="quizzimage">
-    </div>
-    <div class="log3">
-
-      <img src="../photo/idees.png" alt="quizzimage">
-    </div>
-    <div class="log5">
-
-      <img src="../photo/quiz (3).png" alt="quizzimage">
-    </div>
-    <div class="log6">
-
-      <img src="../photo/quiz (3).png" alt="quizzimage">
-    </div>
-
-    
-  <div class="cadre">
+  }
+?> 
     <form action="quiz.html" method="post">
       <label for="username">Nom d'utilisateur:</label>
       <br>
@@ -72,9 +44,9 @@ return false;
       <input type="submit" value="Se connecter">
      
     </form>
-    <a href ="page_d_inscreption.php"> Vous n'avez pas de compte? S'inscrire</a>
-  </div>
+    <a href ="page_d_inscreption.html"> Vous n'avez pas de compte? S'inscrire</a>
+ 
   
   
-</body>
-</html>
+ 
+ 
