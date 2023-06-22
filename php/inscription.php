@@ -13,6 +13,6 @@ $link->query($sql);
     echo "Email : " . $email . "<br>";
     
     echo "Mot de passe : " . $password . "<br>";
-    header('location: ../html/page_de_connexion.html');
+    header('location: ../html/page_de_connexion.php');
 }
 ?>

@@ -27,13 +27,6 @@ if(isset($_POST["submit"]))
         }
 }
 
- 
-    
-       
-    
-        
-    
-    
        
     public function verifierConnexion($usr_pseudo , $password ) {
             

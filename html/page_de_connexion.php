@@ -2,35 +2,7 @@
 
 <!DOCTYPE html>
 <html>
- <!-- <?php
-  $link = mysqli_connect("localhost", "root", "", "ipssi_quizzeo");
-                 
-    
-         
-    
-  if($link === false){
-      die("ERROR: Could not connect. " . mysqli_connect_error());
-  }
-
-      
-
-  $sql = "SELECT 1 FROM usr_user WHERE usr_pseudo = $usr_pseudo and usr_password = $password"; 
-
-  if($result = mysqli_query($link, $sql)){
-      if(mysqli_num_rows($result) > 0) 
-      {
-          
-         
-return true;
-      } 
-     
-else {
-          
-         
-return false;
-      }
-  }}
-?>-->
+ 
 <head>
   <title>Quizzeo</title>
   <link rel="stylesheet" href="../css/connet.css">
@@ -40,7 +12,7 @@ return false;
   <div class="log1">
     <img src="../photo/quiz (1).png" alt="qizzimage">
     
-    </div>
+    </div>        
     <div class="log2">
 
       <img src="../photo/idees.png" alt="quizzimage">
@@ -60,7 +32,7 @@ return false;
 
     
   <div class="cadre">
-    <form action="quiz.html" method="post">
+   <form method="post">
       <label for="username">Nom d'utilisateur:</label>
       <br>
       <input type="text" id="username" name="username" required>
@@ -69,12 +41,15 @@ return false;
       <br>
       <input type="password" id="password" name="password" required>
       <br>
-      <input type="submit" value="Se connecter">
+      <input type="submit" id="bo" value="Se connecter">
      
     </form>
     <a href ="page_d_inscreption.php"> Vous n'avez pas de compte? S'inscrire</a>
   </div>
-  
+ 
+  <?php include "../php/conect.php"; ?>
+ 
+
   
 </body>
 </html>
